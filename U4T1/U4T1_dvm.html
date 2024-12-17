@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>U4T1 - ENTREGABLE 1</title>
+    <link rel="stylesheet" href="U4T1_dvm.css">
+</head>
+<body>
+    <main>
+        <header>Registro de Vacunación Centro de Salud de Bormujos</header>
+        <form>
+            <label>Nombre del paciente:</label>
+            <input type="text" id="nombre" name="nombre">
+        
+            <label>DNI:</label>
+            <input type="text" id="dni" name="dni">
+        
+            <label>Fabricante de la vacuna:</label>
+            <select id="fabricante" name="fabricante">
+                <option value="" disabled selected>Seleccione un fabricante</option>
+                <option value="Pfizer">Pfizer</option>
+                <option value="AstraZeneca">AstraZeneca</option>
+                <option value="BioNTech">BioNTech</option>
+            </select>
+        
+            <label>Password:</label>
+            <input type="text" id="password" name="password">
+        
+            <button type="reset">Reset</button>
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+    <script src="U4T1_dvm.js"></script>
+</body>
+</html>

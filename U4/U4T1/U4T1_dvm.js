@@ -1,16 +1,34 @@
 // U4T1 - ENTREGABLE 1
+document.getElementById("enviar").addEventListener("click", validar);
+
 
 function validar(e) {
-    let inputNombre=document.getElementById("nombre");
-    let inputDni=document.getElementById("dni");
-    let inputFabricante=document.getElementById("fabricante");
-    let inputPassword=document.getElementById("password");
-    let valido=false;
-
     e.preventDefault();
 
-    if (inputNombre!=null || inputDni==null || inputFabricante==null || inputPassword==null) valido=false;
-    else (nombre.type!=text);
+    if (validarNombre()  && validarDni() && validarFabricante() && validarPassword()) {
+        alert("Envío de formulario");
+        e.target.submit();
+    } else {
+        alert("Hay datos incorrectos");
+    };
 };
+
+function validarNombre() {
+    let nombre = document.getElementById("nombre");
+
+    if (nombre.)
+}
+
+function validarDni() {d
+    
+}
+
+function validarFabricante() {
+    
+}
+
+function validarPassword() {
+    
+}
 
 // Daniel Vilar Martínez
